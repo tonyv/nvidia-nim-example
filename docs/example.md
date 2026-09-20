@@ -6,9 +6,6 @@ demonstrate how to get a raw response directly from a NIM endpoint. The second
 script uses the OpenAI SDK to see if we can easily swap in different models at
 will.
 
-Both read the key from `NVIDIA_API_KEY` via `python-dotenv`. Both were run against
-a live key and produced a response.
-
 ```
 uv run python examples/nim-example-openai.py
 uv run python examples/nim-example-nvidia.py
