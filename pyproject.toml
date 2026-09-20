@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Tony Vu", email = "tony@apartmenttherapy.com" }
+    { name = "Tony" }
 ]
 requires-python = ">=3.12"
 dependencies = [
@@ -15,9 +15,5 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
-[project.scripts]
-nim-quick-start = "nim_quick_start:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
