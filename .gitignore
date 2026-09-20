@@ -12,4 +12,7 @@ wheels/
 # Environment variables
 .env
 
+# MkDocs build output
+site/
+
 BUILD_PLAN.md
