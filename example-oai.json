@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-7dfbd43a-e2a2-485f-b6ae-4bee92e65f86",
+  "choices": [
+    {
+      "delta": {
+        "content": "ential",
+        "function_call": null,
+        "refusal": null,
+        "role": "assistant",
+        "tool_calls": null
+      },
+      "finish_reason": null,
+      "index": 0,
+      "logprobs": null
+    }
+  ],
+  "created": 1789670317,
+  "model": "moonshotai/kimi-k3",
+  "object": "chat.completion.chunk",
+  "moderation": null,
+  "obfuscation": null,
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chatcmpl-1e241f42-a529-4152-ac44-1a5461f31ebf",
+  "choices": [
+    {
+      "index": 0,
+      "delta": { "role": "assistant", "reasoning_content": " user" },
+      "finish_reason": null,
+      "logprobs": null
+    }
+  ],
+  "created": 1789670809,
+  "model": "moonshotai/kimi-k3",
+  "service_tier": null,
+  "system_fingerprint": null,
+  "object": "chat.completion.chunk",
+  "usage": null
+}

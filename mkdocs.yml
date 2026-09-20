@@ -1,0 +1,8 @@
+site_name: Getting Started with NVIDIA NIM — A First Run
+theme:
+  name: material
+nav:
+  - Overview: index.md
+  - Getting Access: getting-access.md
+  - First Call: first-call.md
+  - Example: example.md
