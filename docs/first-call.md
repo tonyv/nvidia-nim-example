@@ -1,12 +1,11 @@
 # First call
 
-The shortest honest path from a working API key to a real model response.
+Going from a working API key to a real model response.
 
 ## Steps
 
-1. From the model's catalog page (Kimi-K3 in this case), select the **Shell** tab.
-2. Copy the prefilled command shown there and run it. The key is already filled in,
-   so there's nothing to substitute.
+1. From the model's catalog page, select the **Shell** tab.
+2. Copy the prefilled command shown there and run it. The key is already filled in.
 
 ## Set your expectations on timing
 
@@ -23,8 +22,7 @@ the normal range observed here.
 ## About `reasoning_effort`
 
 This parameter is documented in the API reference and controls how much reasoning the
-model does before answering. It's tempting to lower it to speed things up — that's
-exactly why it was found here, mid-wait, by checking the reference.
+model does before answering. It's tempting to lower it to speed things up.
 
 Worth knowing before you do the same: across single runs at `low`, `high`, and `max`,
 first-token time ranged from about 33s to about 71s, and the two `low` runs alone
